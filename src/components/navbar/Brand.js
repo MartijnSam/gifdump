@@ -6,8 +6,9 @@ import Logo from './../../images/logo.png'
 export default function Brand (){
 return(<>
    <Navbar>
-    <Navbar.Brand href="#home">
+    <navbarbrand >
       <img
+        href="#home"
         src={Logo}
         width="100"
         height="100"
@@ -15,7 +16,7 @@ return(<>
         alt="gifDump logo"
       />{' '}
       gifDump
-    </Navbar.Brand>
+    </navbarbrand>
   </Navbar>
   <br />
 </>)}

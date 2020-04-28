@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+navbarbrand  {
+  background-color: #2e2e3a;
+  text-align: center;
+  color: #bbb8b2;
+  font-size: 60px;
+  padding-right: 10px;
+  
+}
