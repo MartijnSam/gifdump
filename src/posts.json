@@ -1,0 +1,5 @@
+[
+    {"user":"Martijn", "title": "Hello World", "content": "check out this cool gif!", "gif": "https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif"},
+    {"user":"Jochem", "title": "What's up!", "content": "hows everybody doing?", "gif": "https://media.giphy.com/media/eoVusT7Pi9ODe/giphy.gif"},
+    {"user": "Karin", "title": "HAHAHA", "content": "very funny", "gif": "https://media.giphy.com/media/u36Ow6jBvWCFW/giphy.gif"}
+]
