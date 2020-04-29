@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
-import Posts from './components/PostCard'
-import ArticleList from './components/ArticleList'
+import PostList from './components/PostList'
 
 import './App.css';
 
@@ -13,11 +12,11 @@ function App() {
       <Navbar />
     </div>
     <div className="row">
-      <Posts />
+    <PostList />
     </div>
 
     <div>
-      <ArticleList />
+      
     </div>
     </main>
   );

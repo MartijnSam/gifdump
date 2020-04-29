@@ -16,8 +16,9 @@ export default function PostList() {
    useEffect(() => {
       async function postsDataFetching() {
     // Getting back data from the net, through the wire, air, and the ocean:
-    const res = await axios.get("https://github.com/MartijnSam/gifdump/blob/master/src/posts.json");
+    const res = await axios.get("https://my-json-server.typicode.com/MartijnSam/gifdump/db");
     await Timeout.set(2000);
+    console.log(`this is what im getting: ${res}`)
     return set_posts(res.data)
   }
 postsDataFetching()
