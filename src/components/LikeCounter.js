@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Button from 'react-bootstrap/Button'
 
 export default function LikeCounter() {
     const [liked, set_Liked] = useState(false);
@@ -11,7 +12,7 @@ export default function LikeCounter() {
 
     const numberOfLikes = 0
     const numberOfLikesCounter = (liked) ? (numberOfLikes+1) : (numberOfLikes+0)
-    const color = (colorLike) ? {'background-color':"green"} : {'background-color':"red"};
+    const variant = (colorLike) ? "success" : "outline-success";
 
     console.log("A render!");
 
@@ -20,6 +21,6 @@ export default function LikeCounter() {
     }, [numberOfLikesCounter]);
 
     return (<div><p>This post has <b>{numberOfLikesCounter}</b> likes!
-    </p><p><button style={color} onClick={clickLike}>Like</button>
-    </p></div>)
+    </p><p><Button variant={variant} onClick={clickLike}>Like</Button>
+        </p></div>)
 }
